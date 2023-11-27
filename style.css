@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: rgb(80, 80, 195);
+    height: 15vh;
+  
+}
+.head{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 1.7em;
+    
+}
+.face{
+    color: aliceblue;
+    display: flex;
+    gap: 50%;
+    padding: 25px;
+    cursor: pointer;
+}
+.face h2{
+    font-size: 3em;
+}
+.face ul li{
+    gap: 20px;
+}
+.head li:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .head{
+        display: none;
+    }
+}
